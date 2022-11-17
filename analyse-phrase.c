@@ -38,7 +38,7 @@ void analyseMot(char *str){
 
 int main(){
 //	printf("Phrase à analyser :\n");
-	char *str="mamene fais pas le chaud";
+	char *str="phrase de test pour analyse de phrase";
 //	scanf("%s",str);
 	printf("%s\n",str);
 
