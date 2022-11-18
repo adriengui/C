@@ -10,8 +10,10 @@ int main() {
 	
 	for(i=v;i>0;i--) {
 		for(j=0;j<len;j++) {
-			if(i<=tab[j]) printf("* ");
-			else printf("  ");
+			if(i<=tab[j]) 
+				printf("* ");
+			else 
+				printf("  ");
 		}
 		printf("\n");
 	}
