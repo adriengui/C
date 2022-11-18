@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int tab[6]={5,9,7,3,14,8};
+	int tab[6]={5, 9, 7, 3, 14, 8};
 	int len=sizeof(tab)/sizeof(int), v=tab[0], i, j;
 	
 	for(i=1;i<len;i++) 
