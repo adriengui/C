@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-	int tab[6]={5, 9, 7, 3, 14, 8};
-	int len=sizeof(tab)/sizeof(int), v=tab[0], i, j;
+	int val[6]={5, 9, 7, 3, 14, 8};
+	int len=sizeof(val)/sizeof(int), max=val[0], i, j;
 	
 	for(i=1;i<len;i++) 
-		if(tab[i]>v) 
-			v=tab[i];
+		if(val[i]>max) 
+			max=val[i];
 	
-	for(i=v;i>0;i--) {
+	for(i=max;i>0;i--) {
 		for(j=0;j<len;j++) {
-			if(i<=tab[j]) 
+			if(i<=val[j]) 
 				printf("* ");
 			else 
 				printf("  ");
